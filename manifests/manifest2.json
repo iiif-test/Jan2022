@@ -3,6 +3,11 @@
   "@id" : "https://iiif-test.github.io/Jan2022/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "January 2022 Manifest",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1240244679/101010554321885379400/3a4d058e3a79f1e1e38251e80f1ddddd/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ ],
   "description" : [ {
     "@value" : "[Click to edit description]",
@@ -41,6 +46,11 @@
           "width" : 4032
         },
         "on" : "http://927d06b8-89a6-4984-bcff-823aa00c38b5"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://iiif-test.github.io/Jan2022/annotations/f77764096aaf6ef68ce34253dbcf0823.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
