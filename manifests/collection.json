@@ -9,9 +9,5 @@
     "@type" : "sc:Manifest",
     "@id" : "https://iiif-test.github.io/Jan2022/manifests/manifest2.json",
     "label" : "January 2022 Manifest"
-  }, {
-    "@type" : "sc:Manifest",
-    "@id" : "https://iiif-test.github.io/Jan2022/manifests/manifest.json",
-    "label" : "January 2022 Manifest"
   } ]
 }
