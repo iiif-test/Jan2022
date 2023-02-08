@@ -1,0 +1,76 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "plant",
+      "@type" : "oa:Tag",
+      "chars" : "plant"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Tree",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Tree</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/101010554321885379400",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-02-08T10:40:36",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1675852836662",
+    "dcterms:modified" : "2023-02-08T10:40:36",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://iiif-test.github.io/Jan2022/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=366,690,761,750"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M365.84834,689.90521h380.52607v0h380.52607v375.21801v375.21801h-380.52607h-380.52607v-375.21801z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_b19e657c-9b26-4e7b-8326-a55211fb1f7b\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://927d06b8-89a6-4984-bcff-823aa00c38b5"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Tractor",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Tractor</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/101010554321885379400",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-02-08T10:39:49",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1675852788596",
+    "dcterms:modified" : "2023-02-08T10:39:49",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://iiif-test.github.io/Jan2022/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1597,754,1924,1632"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1597.31754,753.6019h961.75829v0h961.75829v815.78673v815.78673h-961.75829h-961.75829v-815.78673z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_dbff5085-6eac-4deb-8adb-0e5cc675ff32\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://927d06b8-89a6-4984-bcff-823aa00c38b5"
+    } ]
+  } ],
+  "@id" : "https://iiif-test.github.io/Jan2022/annotations/f77764096aaf6ef68ce34253dbcf0823.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
